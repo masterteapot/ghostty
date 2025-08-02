@@ -1,0 +1,15 @@
+theme = Vague
+background-opacity = .85
+window-padding-x = 6
+window-padding-y = 6
+window-decoration = none
+window-padding-balance = true
+font-size = 14
+font-feature = liga
+font-feature = calt
+font-feature = dlig
+# font-family = ""
+# font-family = MesloLGS Nerd Font
+# font-family = Ubuntu Nerd Font Mono
+font-family = FiraCode Nerd Font Mono
+bold-is-bright = true
