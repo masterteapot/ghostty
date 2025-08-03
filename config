@@ -13,3 +13,67 @@ font-feature = dlig
 # font-family = Ubuntu Nerd Font Mono
 font-family = FiraCode Nerd Font Mono
 bold-is-bright = true
+
+##### Keybinds #####
+# Unbinds
+keybind = ctrl+shift+arrow_left=unbind
+keybind = ctrl+shift+arrow_right=unbind
+keybind = ctrl+shift+o=unbind
+
+# Fonts
+keybind = ctrl++=increase_font_size:1
+keybind = ctrl+-=decrease_font_size:1
+keybind = ctrl+equal=increase_font_size:1
+
+# Config
+keybind = ctrl+,=open_config
+keybind = ctrl+shift+,=reload_config
+
+# Copying, pasting, saving
+keybind = ctrl+shift+c=copy_to_clipboard
+keybind = ctrl+alt+shift+j=write_screen_file:open
+keybind = ctrl+insert=copy_to_clipboard
+keybind = ctrl+shift+a=select_all
+keybind = ctrl+shift+j=write_screen_file:paste
+keybind = ctrl+shift+v=paste_from_clipboard
+
+# Window
+keybind = ctrl+shift+n=new_window
+keybind = ctrl+enter=toggle_fullscreen
+keybind = ctrl+shift+i=inspector:toggle
+keybind = ctrl+shift+q=quit
+
+# Splits
+keybind = ctrl+alt+j=goto_split:down
+keybind = ctrl+alt+h=goto_split:left
+keybind = ctrl+alt+l=goto_split:right
+keybind = ctrl+alt+k=goto_split:up
+keybind = ctrl+s=new_split:right
+keybind = ctrl+shift+s=new_split:down
+keybind = ctrl+shift+enter=toggle_split_zoom
+keybind = alt+shift+arrow_down=resize_split:down,10
+keybind = alt+shift+arrow_left=resize_split:left,10
+keybind = alt+shift+arrow_right=resize_split:right,10
+keybind = alt+shift+arrow_up=resize_split:up,10
+keybind = ctrl+q=close_surface
+keybind = ctrl+w=close_surface
+
+
+# General
+keybind = ctrl+shift+p=toggle_command_palette
+
+# Tabs
+keybind = ctrl+1=goto_tab:1
+keybind = ctrl+2=goto_tab:2
+keybind = ctrl+3=goto_tab:3
+keybind = ctrl+4=goto_tab:4
+keybind = ctrl+5=goto_tab:5
+keybind = ctrl+6=goto_tab:6
+keybind = ctrl+7=goto_tab:7
+keybind = ctrl+8=goto_tab:8
+keybind = ctrl+page_down=next_tab
+keybind = ctrl+page_up=previous_tab
+keybind = ctrl+shift+t=new_tab
+keybind = ctrl+shift+tab=previous_tab
+keybind = ctrl+shift+w=close_tab
+keybind = ctrl+tab=next_tab
