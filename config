@@ -42,6 +42,7 @@ keybind = ctrl+shift+n=new_window
 keybind = ctrl+enter=toggle_fullscreen
 keybind = ctrl+shift+i=inspector:toggle
 keybind = ctrl+shift+q=quit
+keybind = ctrl+shift+w=quit
 
 # Splits
 keybind = ctrl+alt+j=goto_split:down
@@ -55,7 +56,6 @@ keybind = alt+shift+arrow_down=resize_split:down,10
 keybind = alt+shift+arrow_left=resize_split:left,10
 keybind = alt+shift+arrow_right=resize_split:right,10
 keybind = alt+shift+arrow_up=resize_split:up,10
-keybind = ctrl+q=close_surface
 keybind = ctrl+w=close_surface
 
 
