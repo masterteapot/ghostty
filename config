@@ -1,6 +1,6 @@
 ##### Settings #####
 # SSH
-shell-integration-features = ssh-terminfo,ssh-env
+shell-integration-features = ssh-env
 
 theme = Vague
 background-opacity = .85
