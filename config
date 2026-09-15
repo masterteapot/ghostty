@@ -1,5 +1,6 @@
-config-file = ?"theme.conf"
+config-file = ?"/home/jared/.config/ghostty/theme.conf"
 
+##### Settings #####
 # SSH
 shell-integration-features = ssh-env
 
@@ -68,7 +69,6 @@ keybind = ctrl+shift+w=close_tab
 keybind = ctrl+tab=next_tab
 
 # Theme
-background-opacity = 1
 window-padding-x = 6
 window-padding-y = 6
 window-decoration = none
@@ -80,4 +80,4 @@ font-feature = dlig
 
 # font-family = FiraCode Nerd Font Mono
 bold-is-bright = true
-
+background-opacity = 1
